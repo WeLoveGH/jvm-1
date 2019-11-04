@@ -1,3 +1,4 @@
+/*
 package cn.xiaowenjie.akka.sample;
 
 import akka.actor.AbstractActor;
@@ -36,3 +37,4 @@ public class Printer extends AbstractActor {
   // #printer-messages
 }
 // #printer-messages
+*/

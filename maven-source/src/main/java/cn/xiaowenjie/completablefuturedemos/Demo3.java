@@ -17,8 +17,11 @@ public class Demo3 {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         System.out.println("start...");
 
+        /**
+         * jdk8的链式调用方式，如果不给返回值，则返回值为null
+         */
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> test())
-                .thenApply(s -> s + "函数接口，加个尾巴")
+                .thenApply(s -> s + " 函数接口，加个尾巴")
                 .thenAccept(System.out::println);
 
         System.out.println("end..." + future.get());

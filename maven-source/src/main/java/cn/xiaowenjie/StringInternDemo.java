@@ -1,3 +1,4 @@
+/*
 package cn.xiaowenjie;
 
 import java.util.ArrayList;
@@ -14,3 +15,4 @@ public class StringInternDemo {
         }
     }
 }
+*/

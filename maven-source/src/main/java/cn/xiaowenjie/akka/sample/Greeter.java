@@ -1,3 +1,4 @@
+/*
 package cn.xiaowenjie.akka.sample;
 
 import akka.actor.AbstractActor;
@@ -49,3 +50,4 @@ public class Greeter extends AbstractActor {
   // #greeter-messages
 }
 // #greeter-messages
+*/

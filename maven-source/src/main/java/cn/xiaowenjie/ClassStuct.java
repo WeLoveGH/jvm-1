@@ -30,6 +30,13 @@ public class ClassStuct {
     }
 
 
+    /**
+     * 最终返回的是finally中的值
+     * @param flag
+     * @param b
+     * @return
+     * @throws Exception
+     */
     public synchronized int  methodLocal(boolean flag, byte b) throws Exception{
         System.out.println(b);
         try {

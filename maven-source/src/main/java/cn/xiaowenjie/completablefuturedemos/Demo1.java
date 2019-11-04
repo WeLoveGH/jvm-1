@@ -6,10 +6,18 @@ import java.util.concurrent.ExecutionException;
 public class Demo1 {
 
     public static void main(String[] args) throws InterruptedException {
+
+
+        /**
+         * 带返回值的线程调用
+         */
         CompletableFuture<String> future = new CompletableFuture<>();
 
         System.out.println("start...");
-        
+
+        /**
+         * 创建线程，且启动线程
+         */
         new Thread(() -> {
             try {
                 System.out.println(future.get());

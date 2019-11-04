@@ -1,3 +1,4 @@
+/*
 package cn.xiaowenjie.akka.sample;
 
 import java.io.IOException;
@@ -9,9 +10,9 @@ import cn.xiaowenjie.akka.sample.Greeter.WhoToGreet;
 
 public class AkkaQuickstart {
   public static void main(String[] args) {
-    
+
     final ActorSystem system = ActorSystem.create("helloakka");
-    
+
     try {
       // #create-actors
       final ActorRef printerActor = system.actorOf(Printer.props(), "printerActor");
@@ -43,3 +44,4 @@ public class AkkaQuickstart {
     }
   }
 }
+*/

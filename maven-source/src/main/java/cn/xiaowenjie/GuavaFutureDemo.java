@@ -1,3 +1,4 @@
+/*
 package cn.xiaowenjie;
 
 import java.util.concurrent.Callable;
@@ -26,7 +27,7 @@ public class GuavaFutureDemo {
                 e.printStackTrace();
             } catch (ExecutionException e) {
                 e.printStackTrace();
-			}            
+			}
         }, MoreExecutors.directExecutor());
 
 
@@ -42,4 +43,4 @@ public class GuavaFutureDemo {
             }
         }, MoreExecutors.directExecutor()); // MoreExecutors.newDirectExecutorService()
     }
-}
+}*/

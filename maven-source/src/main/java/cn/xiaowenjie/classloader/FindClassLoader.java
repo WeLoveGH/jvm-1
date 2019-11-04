@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
 public class FindClassLoader {
 
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+
         ClassLoader loader = FindClassLoader.class.getClassLoader();
 
         byte[] bytes = loadClassBytes("cn.xiaowenjie.classloader.HelloLoader");
